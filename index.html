@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Praktikum 3</title>
+    <script>
+      function showAlerts() {
+        alert("Tanggal dan waktu sekarang: " + new Date());
+        var next = confirm(
+          "Klik OK untuk lanjut ke alert berikutnya, atau Cancel untuk berhenti."
+        );
+        if (next) {
+          alert("Silahkan hubungi call center untuk bertanya lebih lanjut.");
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Mari Berkenalan</h1>
+      <p>
+        Perkenalkan, nama saya <strong>Zowie</strong>. Saya seorang
+        <em>Barber</em>. Saya bekerja di
+        <a href="https://www.arfabarbershop.com/">Arfa Barber Academy</a>. Saya
+        memiliki beberapa pelayanan, antara lain:
+      </p>
+      <ul>
+        <li>VITAMIN RAMBUT</li>
+        <li>SHAVING</li>
+        <li>MASSAGE</li>
+        <li>COLORING / PEWARNAAN RAMBUT</li>
+        <li>HAIRMASK</li>
+        <li>HIGHLIGHT</li>
+        <li>HAIRLOSS TREATMENT</li>
+      </ul>
+      <p>Terima kasih sudah berkunjung.</p>
+      <img src="ABA LOGO.png" alt="Gambar" />
+      <button onclick="showAlerts()">Tampilkan Alert</button>
+    </div>
+  </body>
+</html>
